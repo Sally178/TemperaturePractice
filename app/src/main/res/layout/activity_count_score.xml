@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity">
+
+        <Button
+            android:id="@+id/A3"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="48dp"
+            android:onClick="Click1"
+            android:text="@string/Tpoints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/output1" />
+
+        <Button
+            android:id="@+id/A2"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+            android:onClick="Click2"
+            android:text="@string/Spoints"
+            app:layout_constraintEnd_toEndOf="@+id/A3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/A3"
+            app:layout_constraintTop_toBottomOf="@+id/A3" />
+
+        <Button
+            android:id="@+id/A1"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginRight="161dp"
+            android:onClick="Click3"
+            android:text="@string/Fpoint"
+            app:layout_constraintEnd_toEndOf="@+id/A2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/A2"
+            app:layout_constraintTop_toBottomOf="@+id/A2" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="96dp"
+            android:onClick="Reset"
+            android:text="@string/reset"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/TeamA"
+            android:layout_width="114dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/score"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/output1"
+            android:layout_width="130dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="@string/point"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.138"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TeamA" />
+
+        <TextView
+            android:id="@+id/output2"
+            android:layout_width="130dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:gravity="center"
+            android:text="@string/point"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TeamB" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0.1dp"
+            android:layout_height="500dp"
+            android:background="#0E0606"
+            android:text="@android:string/VideoView_error_text_invalid_progressive_playback"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TeamB"
+            android:layout_width="114dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:gravity="center"
+            android:text="@string/teamb"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/B3"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:onClick="Click4"
+            android:text="@string/Tpoints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/output2" />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:onClick="Click5"
+            android:text="@string/Spoints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/B3" />
+
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="100dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:onClick="Click6"
+            android:text="@string/Fpoint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/B2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

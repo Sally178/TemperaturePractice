@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TemperaturePractice</string>
+    <string name="temperature">Temperature：</string>
+    <string name="number"></string>
+    <string name="submit">submit</string>
+    <string name="result">result：</string>
+    <string name="score">TeamA</string>
+    <string name="point">0</string>
+    <string name="Tpoints">+3 points</string>
+    <string name="Spoints">+2 points</string>
+    <string name="Fpoint">+1 point</string>
+    <string name="reset">Reset</string>
+    <string name="teamb">TeamB</string>
+    <string name="hello">Hello</string>
+    <string name="input_rmb">Input RMB</string>
+    <string name="dollar">dollar</string>
+    <string name="euro">euro</string>
+    <string name="won">won</string>
+    <string name="config">config</string>
+    <string name="exdollar">exdollar</string>
+    <string name="exeuro">exeuro</string>
+    <string name="exwon">exwon</string>
+    <string name="save">save</string>
+    <string name="home">home</string>
+    <string name="setting">setting</string>
+</resources>

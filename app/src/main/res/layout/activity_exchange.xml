@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exchange">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:hint="@string/input_rmb" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/dollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FF9800"
+        android:onClick="dollar"
+        android:text="@string/dollar" />
+
+    <Button
+        android:id="@+id/euro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FF9800"
+        android:onClick="euro"
+        android:text="@string/euro" />
+
+    <Button
+        android:id="@+id/won"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FF9800"
+        android:onClick="won"
+        android:text="@string/won" />
+
+    <Button
+        android:id="@+id/config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FF9800"
+        android:onClick="conf"
+        android:text="@string/config" />
+</LinearLayout>
